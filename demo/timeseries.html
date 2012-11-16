@@ -1,0 +1,123 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>iSynergz Time Series Dem</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Peg Test App">
+	
+	<!-- CSS -->
+	
+	<style>
+     @import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+     @import url(style.css);
+ 
+     #example1 { min-height: 155px; }
+     #example2a { min-height: 153px; }
+     #example2b { min-height: 255px; }
+
+    #countries path {
+      fill: #f5f5f5;
+      stroke: #fff;
+    }
+
+    #arcs path {
+      fill: none;
+      stroke-opacity: .9;
+    }
+     </style>
+
+	<link rel="stylesheet" type="text/css" href="../_libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- RequireJS -->
+	<script data-main="js/bootstrap" src="../_libs/require/require.js"></script>
+
+	<script src="js/d3.v2.js"></script>
+    <script src="js/cubism.v1.js"></script>
+    <script src="js/highlight.min.js"></script>
+
+	    <script>
+
+		function random(name) {
+		  var value = 0,
+		      values = [],
+		      i = 0,
+		      last;
+		  return context.metric(function(start, stop, step, callback) {
+		    start = +start, stop = +stop;
+		    if (isNaN(last)) last = start;
+		    while (last < stop) {
+		      last += step;
+		      value = Math.max(-10, Math.min(10, value + .8 * Math.random() - .4 + .2 * Math.cos(i += .2)));
+		      values.push(value);
+		    }
+		    callback(null, values = values.slice((start - stop) / step));
+		  }, name);
+		}
+
+	</script>
+	
+	
+</head>
+<body>
+
+	<div id="app" class="container">
+		<div class="row">
+			<h2>iSynergz - DEMO</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			</p>
+			<div id="example1"></div>
+		</div>
+		
+		
+		<footer style="margin-top: 45px;padding: 35px 0 36px;border-top: 1px solid #E5E5E5;">
+			<p class="pull-right"><a href="" target="_blank">iseatz.com</a></p>
+			<p>Created by <a href="" target="_blank">@isynergz</a></p>
+		</footer>	
+	</div>
+
+	<script>
+	
+	var context = cubism.context()
+	    .serverDelay(0)
+	    .clientDelay(0)
+	    .step(1e3)
+	    .size(960);
+
+	var foo = random("foo"),
+	    bar = random("bar");
+
+	d3.select("#example1").call(function(div) {
+
+	  div.append("div")
+	      .attr("class", "axis")
+	      .call(context.axis().orient("top"));
+
+	  div.selectAll(".horizon")
+	      .data([foo, bar, foo.add(bar), foo.subtract(bar)])
+	    .enter().append("div")
+	      .attr("class", "horizon")
+	      .call(context.horizon().extent([-20, 20]));
+
+	  div.append("div")
+	      .attr("class", "rule")
+	      .call(context.rule());
+
+	});
+
+	// On mousemove, reposition the chart values to match the rule.
+	context.on("focus", function(i) {
+	  d3.selectAll(".value").style("right", i == null ? null : context.size() - i + "px");
+	});
+	</script>	
+
+
+</body>
+</html> 
