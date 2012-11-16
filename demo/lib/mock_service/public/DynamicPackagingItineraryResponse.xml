@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DynamicPackagingItineraryResponse xmlns="http://ws.orbitz.com/schemas/2008/DynamicPackaging" xmlns:air="http://ws.orbitz.com/schemas/2008/Air" xmlns:com="http://ws.orbitz.com/schemas/2008/Common" xmlns:hotel="http://ws.orbitz.com/schemas/2008/Hotel" xmlns:ns5="http://ws.orbitz.com/schemas/2008/Car" xmlns:ns6="http://ws.orbitz.com/schemas/2008/Loyalty" xmlns:ns7="http://ws.orbitz.com/schemas/2008/Vendor" xmlns:ns8="http://ws.orbitz.com/schemas/2008/Oas" locale="en_US" requestId="WS:3c44d812-7ba3-4c24-adf8-ace8b11641cf" responseDate="2012-05-17T11:54:27.620">
+    <OrbitzConfirmationCode>PBAXP5265519994</OrbitzConfirmationCode>
+    <BundleLocatorCode>BBAXP9988588464</BundleLocatorCode>
+    <PurchasedDate>2012-05-01</PurchasedDate>
+    <Status>CAN</Status>
+    <PaymentInfos>
+        <PaymentInfo>
+            <com:Address>
+                <com:Street1>643 Magazine St.</com:Street1>
+                <com:Street2>Suite 100</com:Street2>
+                <com:City>New Orleans</com:City>
+                <com:StateProvince>LA</com:StateProvince>
+                <com:PostalCode>70130</com:PostalCode>
+                <com:Country>US</com:Country>
+            </com:Address>
+            <com:CcType code="CA">MasterCard</com:CcType>
+            <com:CcNumber>**** **** **** 8485</com:CcNumber>
+            <com:CcExpMonth>7</com:CcExpMonth>
+            <com:CcExpYear>2012</com:CcExpYear>
+            <com:CcBillingName>Paula Thompson</com:CcBillingName>
+            <com:CcBillingPhoneDetails>
+                <com:CountryCode>US</com:CountryCode>
+                <com:CountryPhoneCode>1</com:CountryPhoneCode>
+                <com:PhoneNumber>(877) 317-1163</com:PhoneNumber>
+            </com:CcBillingPhoneDetails>
+        </PaymentInfo>
+    </PaymentInfos>
+    <PackageItineraryInfo>
+        <PkgAirItineraryInfo>
+            <ProductLocatorCode>AF276101L5621IBG</ProductLocatorCode>
+            <AirlineConfirmationCodes>
+                <air:AirlineConfirmationCode carrierCode="UA">IBPTZD</air:AirlineConfirmationCode>
+                <air:AirlineConfirmationCode carrierCode="AS">PTYQJN</air:AirlineConfirmationCode>
+            </AirlineConfirmationCodes>
+            <Status>Cancelled</Status>
+            <CancelInfo>
+                <CancellationNumber>BCAXP2338610954</CancellationNumber>
+                <CancelledDate>2012-05-01</CancelledDate>
+            </CancelInfo>
+            <TravelerDetails>
+                <air:Traveler travelerType="Adult">
+                    <air:Name>
+                        <com:Title/>
+                        <com:FirstName>KELETA</com:FirstName>
+                        <com:MiddleName/>
+                        <com:LastName>ORBITZTEST</com:LastName>
+                        <com:Suffix/>
+                    </air:Name>
+                    <air:PhoneNumber>1-(504) 555-1212</air:PhoneNumber>
+                    <air:SecureFlightInfo>
+                        <air:Gender>Male</air:Gender>
+                        <air:DOB>1970-01-01</air:DOB>
+                    </air:SecureFlightInfo>
+                    <air:PNRId>1.1</air:PNRId>
+                    <air:SpecialService/>
+                    <air:MealType code="STDM">Standard</air:MealType>
+                </air:Traveler>
+            </TravelerDetails>
+            <FlightInformation>
+                <air:Slices>
+                    <air:Slice travelDuration="PT1H20M">
+                        <air:MarketingAirline code="00">Multiple Airlines</air:MarketingAirline>
+                        <air:Segments airfareConnections="0">
+                            <air:Segment travelDuration="PT1H20M">
+                                <air:FlightNumber>5220</air:FlightNumber>
+                                <air:FlightDistance unit="mi">339.0</air:FlightDistance>
+                                <air:MarketedBy code="AS">Alaska Airlines</air:MarketedBy>
+                                <air:Departure>
+                                    <air:Airport>
+                                        <com:Id>33964</com:Id>
+                                        <com:Name>San Francisco Airport</com:Name>
+                                        <com:Code>SFO</com:Code>
+                                        <com:Type code="AIRPORT">airport</com:Type>
+                                        <com:CityName>San Francisco</com:CityName>
+                                        <com:StateProvince code="CA"/>
+                                        <com:Country code="US">United States</com:Country>
+                                    </air:Airport>
+                                    <air:Time>2012-08-09T18:50:00.000</air:Time>
+                                </air:Departure>
+                                <air:Arrival>
+                                    <air:Airport>
+                                        <com:Id>33774</com:Id>
+                                        <com:Name>Los Angeles Airport, El Segundo</com:Name>
+                                        <com:Code>LAX</com:Code>
+                                        <com:Type code="AIRPORT">airport</com:Type>
+                                        <com:CityName>Los Angeles</com:CityName>
+                                        <com:StateProvince code="CA"/>
+                                        <com:Country code="US">United States</com:Country>
+                                    </air:Airport>
+                                    <air:Time>2012-08-09T20:10:00.000</air:Time>
+                                </air:Arrival>
+                                <air:CabinType code="C">Economy</air:CabinType>
+                                <air:DepartureTerminal>1</air:DepartureTerminal>
+                                <air:ArrivalTerminal>5</air:ArrivalTerminal>
+                                <air:Legs airfareConnections="0">
+                                    <air:Leg SeatMapDataAvailable="true" id="0" travelDuration="PT1H20M">
+                                        <air:FlightNumber>5220</air:FlightNumber>
+                                        <air:EquipmentType>Boeing 737</air:EquipmentType>
+                                        <air:FlightDistance unit="mi">339.0</air:FlightDistance>
+                                        <air:MarketedBy code="AS">Alaska Airlines</air:MarketedBy>
+                                        <air:Departure>
+                                            <air:Airport>
+                                                <com:Id>33964</com:Id>
+                                                <com:Name>San Francisco Airport</com:Name>
+                                                <com:Code>SFO</com:Code>
+                                                <com:Type code="AIRPORT">airport</com:Type>
+                                                <com:CityName>San Francisco</com:CityName>
+                                                <com:StateProvince code="CA"/>
+                                                <com:Country code="US">United States</com:Country>
+                                            </air:Airport>
+                                            <air:Time>2012-08-09T18:50:00.000</air:Time>
+                                        </air:Departure>
+                                        <air:Arrival>
+                                            <air:Airport>
+                                                <com:Id>33774</com:Id>
+                                                <com:Name>Los Angeles Airport, El Segundo</com:Name>
+                                                <com:Code>LAX</com:Code>
+                                                <com:Type code="AIRPORT">airport</com:Type>
+                                                <com:CityName>Los Angeles</com:CityName>
+                                                <com:StateProvince code="CA"/>
+                                                <com:Country code="US">United States</com:Country>
+                                            </air:Airport>
+                                            <air:Time>2012-08-09T20:10:00.000</air:Time>
+                                        </air:Arrival>
+                                        <air:CabinType code="C">Economy</air:CabinType>
+                                        <air:DepartureTerminal>1</air:DepartureTerminal>
+                                        <air:ArrivalTerminal>5</air:ArrivalTerminal>
+                                    </air:Leg>
+                                </air:Legs>
+                            </air:Segment>
+                        </air:Segments>
+                    </air:Slice>
+                    <air:Slice travelDuration="PT1H15M">
+                        <air:MarketingAirline code="00">Multiple Airlines</air:MarketingAirline>
+                        <air:Segments airfareConnections="0">
+                            <air:Segment travelDuration="PT1H15M">
+                                <air:FlightNumber>926</air:FlightNumber>
+                                <air:FlightDistance unit="mi">339.0</air:FlightDistance>
+                                <air:MarketedBy code="UA">United Airlines</air:MarketedBy>
+                                <air:Departure>
+                                    <air:Airport>
+                                        <com:Id>33774</com:Id>
+                                        <com:Name>Los Angeles Airport, El Segundo</com:Name>
+                                        <com:Code>LAX</com:Code>
+                                        <com:Type code="AIRPORT">airport</com:Type>
+                                        <com:CityName>Los Angeles</com:CityName>
+                                        <com:StateProvince code="CA"/>
+                                        <com:Country code="US">United States</com:Country>
+                                    </air:Airport>
+                                    <air:Time>2012-08-10T16:05:00.000</air:Time>
+                                </air:Departure>
+                                <air:Arrival>
+                                    <air:Airport>
+                                        <com:Id>33964</com:Id>
+                                        <com:Name>San Francisco Airport</com:Name>
+                                        <com:Code>SFO</com:Code>
+                                        <com:Type code="AIRPORT">airport</com:Type>
+                                        <com:CityName>San Francisco</com:CityName>
+                                        <com:StateProvince code="CA"/>
+                                        <com:Country code="US">United States</com:Country>
+                                    </air:Airport>
+                                    <air:Time>2012-08-10T17:20:00.000</air:Time>
+                                </air:Arrival>
+                                <air:CabinType code="C">Economy</air:CabinType>
+                                <air:DepartureTerminal>7</air:DepartureTerminal>
+                                <air:ArrivalTerminal>3</air:ArrivalTerminal>
+                                <air:Legs airfareConnections="0">
+                                    <air:Leg SeatMapDataAvailable="true" id="0" travelDuration="PT1H15M">
+                                        <air:FlightNumber>926</air:FlightNumber>
+                                        <air:EquipmentType>Boeing 757</air:EquipmentType>
+                                        <air:FlightDistance unit="mi">339.0</air:FlightDistance>
+                                        <air:MarketedBy code="UA">United Airlines</air:MarketedBy>
+                                        <air:Departure>
+                                            <air:Airport>
+                                                <com:Id>33774</com:Id>
+                                                <com:Name>Los Angeles Airport, El Segundo</com:Name>
+                                                <com:Code>LAX</com:Code>
+                                                <com:Type code="AIRPORT">airport</com:Type>
+                                                <com:CityName>Los Angeles</com:CityName>
+                                                <com:StateProvince code="CA"/>
+                                                <com:Country code="US">United States</com:Country>
+                                            </air:Airport>
+                                            <air:Time>2012-08-10T16:05:00.000</air:Time>
+                                        </air:Departure>
+                                        <air:Arrival>
+                                            <air:Airport>
+                                                <com:Id>33964</com:Id>
+                                                <com:Name>San Francisco Airport</com:Name>
+                                                <com:Code>SFO</com:Code>
+                                                <com:Type code="AIRPORT">airport</com:Type>
+                                                <com:CityName>San Francisco</com:CityName>
+                                                <com:StateProvince code="CA"/>
+                                                <com:Country code="US">United States</com:Country>
+                                            </air:Airport>
+                                            <air:Time>2012-08-10T17:20:00.000</air:Time>
+                                        </air:Arrival>
+                                        <air:CabinType code="C">Economy</air:CabinType>
+                                        <air:DepartureTerminal>7</air:DepartureTerminal>
+                                        <air:ArrivalTerminal>3</air:ArrivalTerminal>
+                                    </air:Leg>
+                                </air:Legs>
+                            </air:Segment>
+                        </air:Segments>
+                    </air:Slice>
+                </air:Slices>
+            </FlightInformation>
+        </PkgAirItineraryInfo>
+        <PkgHotelItineraryInfo>
+            <HotelIdentifier>10390</HotelIdentifier>
+            <HotelStayDetails>
+                <hotel:CheckIn>2012-08-09</hotel:CheckIn>
+                <hotel:CheckOut>2012-08-10</hotel:CheckOut>
+                <hotel:TotalNumberOfRooms>1</hotel:TotalNumberOfRooms>
+            </HotelStayDetails>
+            <Hotel chainCode="MU" fromCache="false" id="10390" name="Millennium Biltmore Hotel" phoneNumber="1-213-624-1011" starRating="4">
+                <Address>
+                    <com:Street1>506 South Grand Ave.</com:Street1>
+                    <com:City>Los Angeles</com:City>
+                    <com:StateProvince>CA</com:StateProvince>
+                    <com:PostalCode>90071</com:PostalCode>
+                    <com:Country>US</com:Country>
+                </Address>
+                <Content>
+                    <hotel:Description locale="en_US" type="HOTEL">A historic landmark, the Millennium Biltmore Hotel, Los Angeles has been home to presidents, kings and Hollywood celebrities since &#13;
+it opened in 1923.  The hotel's central location in downtown's business district provides an inner-city retreat for your group's &#13;
+attendees.  A full array of concierge services, health club facilities and business services are offered in the old-world charm and&#13;
+and elegance of great European hotels.
+                    </hotel:Description>
+                    <hotel:Amenities>
+                        <hotel:Amenity code="ROOM">Room Service</hotel:Amenity>
+                        <hotel:Amenity code="CNFFAC">Conference Facilities</hotel:Amenity>
+                        <hotel:Amenity code="CONLEV">Concierge</hotel:Amenity>
+                        <hotel:Amenity code="MTGFAC">Meeting/Banquet Facilities</hotel:Amenity>
+                        <hotel:Amenity code="BUSCTR">Business center</hotel:Amenity>
+                        <hotel:Amenity code="POOL">Pool</hotel:Amenity>
+                        <hotel:Amenity code="HEALTH">Health Club</hotel:Amenity>
+                        <hotel:Amenity code="INTRNT">Internet Access</hotel:Amenity>
+                        <hotel:Amenity code="REST">Restaurant</hotel:Amenity>
+                        <hotel:Amenity code="INTHS">High-speed Internet</hotel:Amenity>
+                        <hotel:Amenity code="DISABL">Handicapped Rooms/Facilities</hotel:Amenity>
+                        <hotel:Amenity code="ORBSPA">Spa services</hotel:Amenity>
+                        <hotel:Amenity code="ORBGYM">Fitness center</hotel:Amenity>
+                    </hotel:Amenities>
+                </Content>
+            </Hotel>
+            <HotelRooms>
+                <HotelRoom>
+                    <Status>PURC</Status>
+                    <RoomConfirmationCode>HBAXP7056992514</RoomConfirmationCode>
+                    <CancellationNumber>BCAXP2338610954</CancellationNumber>
+                    <CanceledDate>2012-05-01</CanceledDate>
+                    <OccupantDetails>
+                        <hotel:Adult count="1"/>
+                        <hotel:Senior count="0"/>
+                        <hotel:Children count="0"/>
+                    </OccupantDetails>
+                    <GuestDetails>
+                        <hotel:Name>
+                            <com:Title>Mr.</com:Title>
+                            <com:FirstName>Keleta</com:FirstName>
+                            <com:LastName>ORBITZTEST</com:LastName>
+                        </hotel:Name>
+                        <hotel:Phone>
+                            <com:PhoneNumber>(504) 555-1212</com:PhoneNumber>
+                        </hotel:Phone>
+                    </GuestDetails>
+                    <RoomRate checkInDate="2012-08-09" checkOutDate="2012-08-10" hostCode="OMH" rateType="M">
+                        <hotel:RateCode>123</hotel:RateCode>
+                        <hotel:RoomCode>166752</hotel:RoomCode>
+                        <hotel:RoomDescription>Standard - 1 king bed</hotel:RoomDescription>
+                        <hotel:RoomDescriptionData>
+                            <hotel:RoomCategory code="STANDARD">Standard</hotel:RoomCategory>
+                        </hotel:RoomDescriptionData>
+                        <hotel:RateDescription>Standard</hotel:RateDescription>
+                        <hotel:RateInclusiveDescription/>
+                        <hotel:MealPlanInfos/>
+                        <hotel:isAgeBasedPriceApplied>false</hotel:isAgeBasedPriceApplied>
+                    </RoomRate>
+                    <HotelCancelPolicyDetails>
+                        <hotel:HotelCancelPenaltyTier asOfDate="2012-08-08" penaltyType="Nights stay penalty">
+                            <hotel:orbitzPenalty currency="USD">41.30</hotel:orbitzPenalty>
+                            <hotel:hotelPenalty currency="USD">149.20</hotel:hotelPenalty>
+                        </hotel:HotelCancelPenaltyTier>
+                        <hotel:HotelCancelPenaltyTier asOfDate="2012-08-09" penaltyType="Reservation not refundable. Cancellation will not result in refund.">
+                            <hotel:orbitzPenalty currency="USD">41.30</hotel:orbitzPenalty>
+                            <hotel:hotelPenalty currency="USD">149.20</hotel:hotelPenalty>
+                        </hotel:HotelCancelPenaltyTier>
+                        <hotel:HotelCancelPolicyDescription> Cancellations or changes made within 1 day prior to 6:00 PM local hotel time on the day of arrival are subject to a $190.50 charge. Cancellations or changes made after 6:00 PM local hotel time on the day of arrival are subject to a 100% charge. We are sorry but refunds are not available for early check-out.</hotel:HotelCancelPolicyDescription>
+                    </HotelCancelPolicyDetails>
+                </HotelRoom>
+            </HotelRooms>
+        </PkgHotelItineraryInfo>
+        <PkgBundlePricingInfo>
+            <PkgRateInfo>
+                <TotalCost currency="USD">372.10</TotalCost>
+                <CostPerPerson currency="USD">372.10</CostPerPerson>
+                <isAgeBasedPriceApplied>false</isAgeBasedPriceApplied>
+            </PkgRateInfo>
+        </PkgBundlePricingInfo>
+    </PackageItineraryInfo>
+    <AgentRemarks>
+        <com:Remark agentId="lperez" createdDateTime="2012-05-01T20:56:49.000" creationDate="2012-05-01">Cancelled package: Cancelled Hotel, Courtesy Cancelled Air, Agency Cancel Fee USD0.00, Booking/Telesales Fee Penalty USD0.00, Previously Refunded Amount USD0.00, iSeatz-American Express Hotel Penalty USD0.00, Airline Penalty USD0.00, Total Fee/Penalty of USD0.00 with a refund of USD190.50 ARC Air Refund of USD181.60 and Original Sell Rate USD372.10, Contact Name ORBITZTEST/Keleta, , Contact Phone null5045551212, Contact Type Unknown</com:Remark>
+        <com:Remark agentId="lperez" createdDateTime="2012-05-01T20:56:49.000" creationDate="2012-05-01">Agent Remark:Orbitz World Wide - Chicago, IL, US
+test booking from iSeatz.
+        </com:Remark>
+    </AgentRemarks>
+</DynamicPackagingItineraryResponse>

@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageRepriceResponse
+	xmlns="http://ws.orbitz.com/schemas/2008/DynamicPackaging" xmlns:air="http://ws.orbitz.com/schemas/2008/Air"
+	xmlns:com="http://ws.orbitz.com/schemas/2008/Common" xmlns:hotel="http://ws.orbitz.com/schemas/2008/Hotel"
+	xmlns:ns5="http://ws.orbitz.com/schemas/2008/Car" xmlns:ns6="http://ws.orbitz.com/schemas/2008/Oas"
+	xmlns:ns7="http://ws.orbitz.com/schemas/2008/Vendor" xmlns:ns8="http://ws.orbitz.com/schemas/2008/ItinNotify"
+	xmlns:ns9="http://ws.orbitz.com/schemas/2008/Loyalty" locale="en_US"
+	requestId="WS:3c6e0e6e-9306-43aa-8633-e6220aca4943" responseDate="2012-11-02T18:15:37.774">
+	<PackageRepriceSolution>
+		<Messages />
+		<PkgHotelRepriceSolution>
+			<CheckIn>2013-05-13</CheckIn>
+			<CheckOut>2013-05-14</CheckOut>
+			<TotalNumberOfRooms>1</TotalNumberOfRooms>
+			<HotelIdentifier>83349</HotelIdentifier>
+			<HostCode>OMH</HostCode>
+			<TotalHotelCostInclusive currency="USD">94.83
+			</TotalHotelCostInclusive>
+			<HotelDetails chainCode="GI"
+				name="Hilton Garden Inn Las Vegas Strip South" phoneNumber="+1 (702) 453-7830"
+				propertyId="LASGI" starRating="3">
+				<Address>
+					<com:Street1>7830 South Las Vegas Boulevard</com:Street1>
+					<com:City>Las Vegas</com:City>
+					<com:StateProvince>NV</com:StateProvince>
+					<com:PostalCode>89123</com:PostalCode>
+					<com:Country>US</com:Country>
+				</Address>
+				<Geocode>
+					<hotel:Longitude>-115.1707</hotel:Longitude>
+					<hotel:Latitude>36.0473</hotel:Latitude>
+				</Geocode>
+				<UserReviews NumberOfRecommendations="6"
+					NumberOfReviews="8" UserScore="4.1" />
+			</HotelDetails>
+			<HotelRoomType>
+				<RoomDetails>
+					<HotelRoomInfo>
+						<RateCode>OB</RateCode>
+						<RoomCode>Q2RRV</RoomCode>
+						<RateAccessCode>81554</RateAccessCode>
+						<RoomDescription>2 Queen hearing accessible room...Vis firealrm
+							door phn alrt...Comp wifi- hdtv with hidef channels
+						</RoomDescription>
+						<TravelerInfo>
+							<Adult count="1" />
+						</TravelerInfo>
+					</HotelRoomInfo>
+					<HotelRateInfo />
+				</RoomDetails>
+				<RoomUpSells>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.00</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>K1RRI</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King mobility hearing accessible w
+									bathtub...Vis firealrm door phn alrt...Comp wifi- bed with
+									adjustable firmness dial</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">255.42</TotalCost>
+								<Taxes currency="USD">8.91</Taxes>
+								<CostPerPerson currency="USD">255.42</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.00</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>K1RRK</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King mobility hearing accessible 3x3shw...Vis
+									firealrm door phn alrt...Comp wifi- bed with adjustable
+									firmness dial</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">255.42</TotalCost>
+								<Taxes currency="USD">8.91</Taxes>
+								<CostPerPerson currency="USD">255.42</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.00</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>K1RRV</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King hearing accessible room...Vis firealrm
+									door phn alrt...Comp wifi- bed with adjustable firmness dial
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">255.42</TotalCost>
+								<Taxes currency="USD">8.91</Taxes>
+								<CostPerPerson currency="USD">255.42</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.00</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>K1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King bed...Comp wifi- bed with adjustable
+									firmness dial...Hi def.Flat screen tv-refrigerator-microwave
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">255.42</TotalCost>
+								<Taxes currency="USD">8.91</Taxes>
+								<CostPerPerson currency="USD">255.42</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.00</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>Q2RRI</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen mobility hearing accessible w
+									bathtub...Vis firealrm door phn alrt...Comp wifi- hdtv with
+									hidef channels</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">255.42</TotalCost>
+								<Taxes currency="USD">8.91</Taxes>
+								<CostPerPerson currency="USD">255.42</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.00</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>Q2</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen beds...Comp wifi- hdtv with hidef
+									channels...Refrigerator-microwave-mp3 clock-coffeemaker
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">255.42</TotalCost>
+								<Taxes currency="USD">8.91</Taxes>
+								<CostPerPerson currency="USD">255.42</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.95</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>Q2</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen beds...Comp wifi- hdtv with hidef
+									channels...Refrigerator-microwave-mp3 clock-coffeemaker -
+									nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">256.37</TotalCost>
+								<Taxes currency="USD">9.00</Taxes>
+								<CostPerPerson currency="USD">256.37</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.95</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>Q2RRI</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen mobility hearing accessible w
+									bathtub...Vis firealrm door phn alrt...Comp wifi- hdtv with
+									hidef channels - nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">256.37</TotalCost>
+								<Taxes currency="USD">9.00</Taxes>
+								<CostPerPerson currency="USD">256.37</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.95</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>Q2RRV</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen hearing accessible room...Vis firealrm
+									door phn alrt...Comp wifi- hdtv with hidef channels -
+									nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">256.37</TotalCost>
+								<Taxes currency="USD">9.00</Taxes>
+								<CostPerPerson currency="USD">256.37</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.95</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>K1RRI</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King mobility hearing accessible w
+									bathtub...Vis firealrm door phn alrt...Comp wifi- bed with
+									adjustable firmness dial - nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">256.37</TotalCost>
+								<Taxes currency="USD">9.00</Taxes>
+								<CostPerPerson currency="USD">256.37</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.95</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>K1RRK</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King mobility hearing accessible 3x3shw...Vis
+									firealrm door phn alrt...Comp wifi- bed with adjustable
+									firmness dial - nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">256.37</TotalCost>
+								<Taxes currency="USD">9.00</Taxes>
+								<CostPerPerson currency="USD">256.37</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.95</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>K1RRV</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King hearing accessible room...Vis firealrm
+									door phn alrt...Comp wifi- bed with adjustable firmness dial -
+									nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">256.37</TotalCost>
+								<Taxes currency="USD">9.00</Taxes>
+								<CostPerPerson currency="USD">256.37</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">0.95</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>K1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King bed...Comp wifi- bed with adjustable
+									firmness dial...Hi def.Flat screen tv-refrigerator-microwave -
+									nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">256.37</TotalCost>
+								<Taxes currency="USD">9.00</Taxes>
+								<CostPerPerson currency="USD">256.37</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">11.37</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>K1RRI</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King mobility hearing accessible w
+									bathtub...Vis firealrm door phn alrt...Comp wifi- bed with
+									adjustable firmness dial</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">266.79</TotalCost>
+								<Taxes currency="USD">9.98</Taxes>
+								<CostPerPerson currency="USD">266.79</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">11.37</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>K1RRK</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King mobility hearing accessible 3x3shw...Vis
+									firealrm door phn alrt...Comp wifi- bed with adjustable
+									firmness dial</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">266.79</TotalCost>
+								<Taxes currency="USD">9.98</Taxes>
+								<CostPerPerson currency="USD">266.79</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">11.37</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>K1RRV</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King hearing accessible room...Vis firealrm
+									door phn alrt...Comp wifi- bed with adjustable firmness dial
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">266.79</TotalCost>
+								<Taxes currency="USD">9.98</Taxes>
+								<CostPerPerson currency="USD">266.79</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">11.37</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>Q2RRI</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen mobility hearing accessible w
+									bathtub...Vis firealrm door phn alrt...Comp wifi- hdtv with
+									hidef channels</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">266.79</TotalCost>
+								<Taxes currency="USD">9.98</Taxes>
+								<CostPerPerson currency="USD">266.79</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">11.37</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>Q2RRV</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen hearing accessible room...Vis firealrm
+									door phn alrt...Comp wifi- hdtv with hidef channels
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">266.79</TotalCost>
+								<Taxes currency="USD">9.98</Taxes>
+								<CostPerPerson currency="USD">266.79</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">11.37</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>K1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King bed...Comp wifi- bed with adjustable
+									firmness dial...Hi def.Flat screen tv-refrigerator-microwave
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">266.79</TotalCost>
+								<Taxes currency="USD">9.98</Taxes>
+								<CostPerPerson currency="USD">266.79</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">11.37</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>Q2</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen beds...Comp wifi- hdtv with hidef
+									channels...Refrigerator-microwave-mp3 clock-coffeemaker
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">266.79</TotalCost>
+								<Taxes currency="USD">9.98</Taxes>
+								<CostPerPerson currency="USD">266.79</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">28.73</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>Q2RRJ1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2Qn suite mobility hearing access ri shwr...Vis
+									firealrm door phn alrt...Living area,comp wifi-bed w adjust
+									firm dial</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">284.15</TotalCost>
+								<Taxes currency="USD">11.61</Taxes>
+								<CostPerPerson currency="USD">284.15</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">28.73</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>K1J</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King bed junior suite with sofabed...Living
+									area-comp wifi-bed w/adjust firm dial...Hi def.Flat screen
+									tv-refrigerator-microwave</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">284.15</TotalCost>
+								<Taxes currency="USD">11.61</Taxes>
+								<CostPerPerson currency="USD">284.15</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">28.73</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>K1RRD1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 king 1 bedroom suite mobility access w/ri
+									shwr...Comp wifi- bed with adjustable firmness dial...Hi
+									def.Flat screen tv-refrigerator-microwave</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">284.15</TotalCost>
+								<Taxes currency="USD">11.61</Taxes>
+								<CostPerPerson currency="USD">284.15</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">28.73</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>K1RRJ1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1king suite mobility hearing access ri
+									shwr...Vis firealrm door phn alrt...Comp wifi- bed with
+									adjustable firmness dial</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">284.15</TotalCost>
+								<Taxes currency="USD">11.61</Taxes>
+								<CostPerPerson currency="USD">284.15</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">28.73</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OB</RateCode>
+								<RoomCode>Q2J</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen beds junior suite with sofabed...Living
+									area-comp wifi- hdtv w/hidef
+									channels...Refrigerator-microwave-mp3 clock-coffeemaker
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">284.15</TotalCost>
+								<Taxes currency="USD">11.61</Taxes>
+								<CostPerPerson currency="USD">284.15</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">30.33</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>Q2RRJ1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2Qn suite mobility hearing access ri shwr...Vis
+									firealrm door phn alrt...Living area,comp wifi-bed w adjust
+									firm dial - nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">285.75</TotalCost>
+								<Taxes currency="USD">11.76</Taxes>
+								<CostPerPerson currency="USD">285.75</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">30.33</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>Q2J</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen beds junior suite with sofabed...Living
+									area-comp wifi- hdtv w/hidef
+									channels...Refrigerator-microwave-mp3 clock-coffeemaker -
+									nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">285.75</TotalCost>
+								<Taxes currency="USD">11.76</Taxes>
+								<CostPerPerson currency="USD">285.75</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">30.33</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>K1RRD1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 king 1 bedroom suite mobility access w/ri
+									shwr...Comp wifi- bed with adjustable firmness dial...Hi
+									def.Flat screen tv-refrigerator-microwave - nonrefundable
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">285.75</TotalCost>
+								<Taxes currency="USD">11.76</Taxes>
+								<CostPerPerson currency="USD">285.75</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">30.33</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>K1J</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King bed junior suite with sofabed...Living
+									area-comp wifi-bed w/adjust firm dial...Hi def.Flat screen
+									tv-refrigerator-microwave - nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">285.75</TotalCost>
+								<Taxes currency="USD">11.76</Taxes>
+								<CostPerPerson currency="USD">285.75</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">30.33</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OS</RateCode>
+								<RoomCode>K1RRJ1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1king suite mobility hearing access ri
+									shwr...Vis firealrm door phn alrt...Comp wifi- bed with
+									adjustable firmness dial - nonrefundable</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">285.75</TotalCost>
+								<Taxes currency="USD">11.76</Taxes>
+								<CostPerPerson currency="USD">285.75</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">43.55</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>Q2RRJ1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2Qn suite mobility hearing access ri shwr...Vis
+									firealrm door phn alrt...Living area,comp wifi-bed w adjust
+									firm dial</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">298.97</TotalCost>
+								<Taxes currency="USD">13.00</Taxes>
+								<CostPerPerson currency="USD">298.97</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">43.55</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>Q2J</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>2 Queen beds junior suite with sofabed...Living
+									area-comp wifi- hdtv w/hidef
+									channels...Refrigerator-microwave-mp3 clock-coffeemaker
+								</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">298.97</TotalCost>
+								<Taxes currency="USD">13.00</Taxes>
+								<CostPerPerson currency="USD">298.97</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">43.55</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>K1RRD1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 king 1 bedroom suite mobility access w/ri
+									shwr...Comp wifi- bed with adjustable firmness dial...Hi
+									def.Flat screen tv-refrigerator-microwave</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">298.97</TotalCost>
+								<Taxes currency="USD">13.00</Taxes>
+								<CostPerPerson currency="USD">298.97</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">43.55</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>K1J</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1 King bed junior suite with sofabed...Living
+									area-comp wifi-bed w/adjust firm dial...Hi def.Flat screen
+									tv-refrigerator-microwave</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">298.97</TotalCost>
+								<Taxes currency="USD">13.00</Taxes>
+								<CostPerPerson currency="USD">298.97</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+					<RoomUpSell>
+						<PriceDifference currency="USD">43.55</PriceDifference>
+						<RoomDetails>
+							<HotelRoomInfo>
+								<RateCode>OR</RateCode>
+								<RoomCode>K1RRJ1</RoomCode>
+								<RateAccessCode>81554</RateAccessCode>
+								<RoomDescription>1king suite mobility hearing access ri
+									shwr...Vis firealrm door phn alrt...Comp wifi- bed with
+									adjustable firmness dial</RoomDescription>
+								<TravelerInfo>
+									<Adult count="1" />
+								</TravelerInfo>
+							</HotelRoomInfo>
+							<HotelRateInfo>
+								<TotalCost currency="USD">298.97</TotalCost>
+								<Taxes currency="USD">13.00</Taxes>
+								<CostPerPerson currency="USD">298.97</CostPerPerson>
+							</HotelRateInfo>
+						</RoomDetails>
+					</RoomUpSell>
+				</RoomUpSells>
+			</HotelRoomType>
+		</PkgHotelRepriceSolution>
+		<PkgAirRepriceSolution secureFlightInfoRequired="true"
+			supportsTravelAlerts="true" totalTickets="1">
+			<FareType code="PUB">published fare</FareType>
+			<PassengerPricingInfos>
+				<air:PassengerPricingInfo>
+					<air:TravelerCostType basePrice="122.80" code="ADT"
+						count="1" currency="USD" tax="30.80" totalPrice="153.60">Adult
+					</air:TravelerCostType>
+					<air:AirBookingInfos>
+						<air:AirBookingInfo>
+							<air:BookingCode>K</air:BookingCode>
+							<air:AirFareInfo>
+								<air:Carrier>UA</air:Carrier>
+								<air:DepartureDate>2013-05-13</air:DepartureDate>
+								<air:DepartureCode>LAX</air:DepartureCode>
+								<air:ArrivalCode>LAS</air:ArrivalCode>
+								<air:FareBasisCode>KAG21KN</air:FareBasisCode>
+							</air:AirFareInfo>
+							<air:AirSegment>
+								<air:DepartureCode>LAX</air:DepartureCode>
+								<air:DepartureTime>2013-05-13T06:50:00.000</air:DepartureTime>
+								<air:ArrivalCode>LAS</air:ArrivalCode>
+								<air:ArrivalTime>2013-05-13T07:57:00.000</air:ArrivalTime>
+								<air:CabinType code="C">Economy</air:CabinType>
+								<air:MarketedBy code="UA">United Airlines
+								</air:MarketedBy>
+								<air:FlightNumber>566</air:FlightNumber>
+							</air:AirSegment>
+						</air:AirBookingInfo>
+						<air:AirBookingInfo>
+							<air:BookingCode>K</air:BookingCode>
+							<air:AirFareInfo>
+								<air:Carrier>UA</air:Carrier>
+								<air:DepartureDate>2013-05-14</air:DepartureDate>
+								<air:DepartureCode>LAS</air:DepartureCode>
+								<air:ArrivalCode>LAX</air:ArrivalCode>
+								<air:FareBasisCode>KAG21KN</air:FareBasisCode>
+							</air:AirFareInfo>
+							<air:AirSegment>
+								<air:DepartureCode>LAS</air:DepartureCode>
+								<air:DepartureTime>2013-05-14T10:40:00.000</air:DepartureTime>
+								<air:ArrivalCode>LAX</air:ArrivalCode>
+								<air:ArrivalTime>2013-05-14T11:49:00.000</air:ArrivalTime>
+								<air:CabinType code="C">Economy</air:CabinType>
+								<air:MarketedBy code="UA">United Airlines
+								</air:MarketedBy>
+								<air:FlightNumber>6374</air:FlightNumber>
+							</air:AirSegment>
+						</air:AirBookingInfo>
+					</air:AirBookingInfos>
+					<air:AirFareInfos>
+						<air:AirFareInfo>
+							<air:Carrier>UA</air:Carrier>
+							<air:DepartureDate>2013-05-13</air:DepartureDate>
+							<air:DepartureCode>LAX</air:DepartureCode>
+							<air:ArrivalCode>LAS</air:ArrivalCode>
+							<air:FareBasisCode>KAG21KN</air:FareBasisCode>
+						</air:AirFareInfo>
+						<air:AirFareInfo>
+							<air:Carrier>UA</air:Carrier>
+							<air:DepartureDate>2013-05-14</air:DepartureDate>
+							<air:DepartureCode>LAS</air:DepartureCode>
+							<air:ArrivalCode>LAX</air:ArrivalCode>
+							<air:FareBasisCode>KAG21KN</air:FareBasisCode>
+						</air:AirFareInfo>
+					</air:AirFareInfos>
+				</air:PassengerPricingInfo>
+			</PassengerPricingInfos>
+			<Slices>
+				<air:Slice travelDuration="PT1H7M">
+					<air:MarketingAirline code="UA">United Airlines
+					</air:MarketingAirline>
+					<air:Segments>
+						<air:Segment id="1" travelDuration="PT1H7M">
+							<air:FlightNumber>566</air:FlightNumber>
+							<air:FlightDistance unit="mi">241.0
+							</air:FlightDistance>
+							<air:OperatedBy>United Airlines</air:OperatedBy>
+							<air:MarketedBy code="UA">United Airlines
+							</air:MarketedBy>
+							<air:Departure>
+								<air:Airport>
+									<com:Id>33774</com:Id>
+									<com:Name>Los Angeles Airport, El Segundo</com:Name>
+									<com:Code>LAX</com:Code>
+									<com:Type code="AIRPORT">airport</com:Type>
+									<com:CityName>Los Angeles</com:CityName>
+									<com:StateProvince code="CA" />
+									<com:Country code="US">United States</com:Country>
+								</air:Airport>
+								<air:Time>2013-05-13T06:50:00.000</air:Time>
+							</air:Departure>
+							<air:Arrival>
+								<air:Airport>
+									<com:Id>33638</com:Id>
+									<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+									<com:Code>LAS</com:Code>
+									<com:Type code="AIRPORT">airport</com:Type>
+									<com:CityName>Las Vegas</com:CityName>
+									<com:StateProvince code="NV" />
+									<com:Country code="US">United States</com:Country>
+								</air:Airport>
+								<air:Time>2013-05-13T07:57:00.000</air:Time>
+							</air:Arrival>
+							<air:CabinType code="C">Economy</air:CabinType>
+							<air:DepartureTerminal>7</air:DepartureTerminal>
+							<air:ArrivalTerminal>3</air:ArrivalTerminal>
+							<air:Legs>
+								<air:Leg SeatMapDataAvailable="true" id="0"
+									travelDuration="PT1H7M">
+									<air:EquipmentType>Airbus A320</air:EquipmentType>
+									<air:FlightDistance unit="mi">241.0
+									</air:FlightDistance>
+									<air:Departure>
+										<air:Airport>
+											<com:Id>33774</com:Id>
+											<com:Name>Los Angeles Airport, El Segundo</com:Name>
+											<com:Code>LAX</com:Code>
+											<com:Type code="AIRPORT">airport</com:Type>
+											<com:CityName>Los Angeles</com:CityName>
+											<com:StateProvince code="CA" />
+											<com:Country code="US">United States</com:Country>
+										</air:Airport>
+										<air:Time>2013-05-13T06:50:00.000</air:Time>
+									</air:Departure>
+									<air:Arrival>
+										<air:Airport>
+											<com:Id>33638</com:Id>
+											<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+											<com:Code>LAS</com:Code>
+											<com:Type code="AIRPORT">airport</com:Type>
+											<com:CityName>Las Vegas</com:CityName>
+											<com:StateProvince code="NV" />
+											<com:Country code="US">United States</com:Country>
+										</air:Airport>
+										<air:Time>2013-05-13T07:57:00.000</air:Time>
+									</air:Arrival>
+									<air:DepartureTerminal>7</air:DepartureTerminal>
+									<air:ArrivalTerminal>3</air:ArrivalTerminal>
+								</air:Leg>
+							</air:Legs>
+						</air:Segment>
+					</air:Segments>
+				</air:Slice>
+				<air:Slice travelDuration="PT1H9M">
+					<air:MarketingAirline code="UA">United Airlines
+					</air:MarketingAirline>
+					<air:Segments>
+						<air:Segment id="2" travelDuration="PT1H9M">
+							<air:FlightNumber>6374</air:FlightNumber>
+							<air:FlightDistance unit="mi">241.0
+							</air:FlightDistance>
+							<air:OperatedBy>SKYWEST DBA UNITED EXPRESS                          </air:OperatedBy>
+							<air:MarketedBy code="UA">United Airlines
+							</air:MarketedBy>
+							<air:Departure>
+								<air:Airport>
+									<com:Id>33638</com:Id>
+									<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+									<com:Code>LAS</com:Code>
+									<com:Type code="AIRPORT">airport</com:Type>
+									<com:CityName>Las Vegas</com:CityName>
+									<com:StateProvince code="NV" />
+									<com:Country code="US">United States</com:Country>
+								</air:Airport>
+								<air:Time>2013-05-14T10:40:00.000</air:Time>
+							</air:Departure>
+							<air:Arrival>
+								<air:Airport>
+									<com:Id>33774</com:Id>
+									<com:Name>Los Angeles Airport, El Segundo</com:Name>
+									<com:Code>LAX</com:Code>
+									<com:Type code="AIRPORT">airport</com:Type>
+									<com:CityName>Los Angeles</com:CityName>
+									<com:StateProvince code="CA" />
+									<com:Country code="US">United States</com:Country>
+								</air:Airport>
+								<air:Time>2013-05-14T11:49:00.000</air:Time>
+							</air:Arrival>
+							<air:CabinType code="C">Economy</air:CabinType>
+							<air:DepartureTerminal>3</air:DepartureTerminal>
+							<air:ArrivalTerminal>8</air:ArrivalTerminal>
+							<air:Legs>
+								<air:Leg SeatMapDataAvailable="true" id="0"
+									onTimePerformance="80" travelDuration="PT1H9M">
+									<air:EquipmentType>Canadair </air:EquipmentType>
+									<air:FlightDistance unit="mi">241.0
+									</air:FlightDistance>
+									<air:Departure>
+										<air:Airport>
+											<com:Id>33638</com:Id>
+											<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+											<com:Code>LAS</com:Code>
+											<com:Type code="AIRPORT">airport</com:Type>
+											<com:CityName>Las Vegas</com:CityName>
+											<com:StateProvince code="NV" />
+											<com:Country code="US">United States</com:Country>
+										</air:Airport>
+										<air:Time>2013-05-14T10:40:00.000</air:Time>
+									</air:Departure>
+									<air:Arrival>
+										<air:Airport>
+											<com:Id>33774</com:Id>
+											<com:Name>Los Angeles Airport, El Segundo</com:Name>
+											<com:Code>LAX</com:Code>
+											<com:Type code="AIRPORT">airport</com:Type>
+											<com:CityName>Los Angeles</com:CityName>
+											<com:StateProvince code="CA" />
+											<com:Country code="US">United States</com:Country>
+										</air:Airport>
+										<air:Time>2013-05-14T11:49:00.000</air:Time>
+									</air:Arrival>
+									<air:DepartureTerminal>3</air:DepartureTerminal>
+									<air:ArrivalTerminal>8</air:ArrivalTerminal>
+								</air:Leg>
+							</air:Legs>
+						</air:Segment>
+					</air:Segments>
+				</air:Slice>
+			</Slices>
+			<ValidatingCarrier>UA</ValidatingCarrier>
+			<SupportedCreditCards>
+				<air:CreditCardCode>AX</air:CreditCardCode>
+				<air:CreditCardCode>DS</air:CreditCardCode>
+				<air:CreditCardCode>DC</air:CreditCardCode>
+				<air:CreditCardCode>CB</air:CreditCardCode>
+				<air:CreditCardCode>CA</air:CreditCardCode>
+				<air:CreditCardCode>VI</air:CreditCardCode>
+			</SupportedCreditCards>
+			<TicketTypes>
+				<air:TicketType code="ETCK">Electronic</air:TicketType>
+			</TicketTypes>
+			<Fees>
+				<com:Fee currency="USD" type="SR">6.99</com:Fee>
+			</Fees>
+		</PkgAirRepriceSolution>
+		<PackageSolution>
+			<RateInformation>
+				<TotalCost currency="USD">255.42</TotalCost>
+				<TotalSavings currency="USD">5.69</TotalSavings>
+				<CostWithoutTax currency="USD">207.45</CostWithoutTax>
+				<Taxes currency="USD">47.97</Taxes>
+				<Fees>
+					<com:Fee currency="USD" type="SR">6.99</com:Fee>
+				</Fees>
+				<CostPerPerson currency="USD">255.42</CostPerPerson>
+				<isAgeBasedPriceApplied>false</isAgeBasedPriceApplied>
+			</RateInformation>
+		</PackageSolution>
+	</PackageRepriceSolution>
+</PackageRepriceResponse>

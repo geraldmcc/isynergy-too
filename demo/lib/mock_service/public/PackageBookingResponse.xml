@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageBookingResponse
+	xmlns="http://ws.orbitz.com/schemas/2008/DynamicPackaging" xmlns:air="http://ws.orbitz.com/schemas/2008/Air"
+	xmlns:com="http://ws.orbitz.com/schemas/2008/Common" xmlns:hotel="http://ws.orbitz.com/schemas/2008/Hotel"
+	xmlns:ns5="http://ws.orbitz.com/schemas/2008/Car" xmlns:ns6="http://ws.orbitz.com/schemas/2008/Oas"
+	xmlns:ns7="http://ws.orbitz.com/schemas/2008/Vendor" xmlns:ns8="http://ws.orbitz.com/schemas/2008/ItinNotify"
+	xmlns:ns9="http://ws.orbitz.com/schemas/2008/Loyalty" locale="en_US"
+	requestId="WS:17a3b801-ed49-4c3e-8e17-cc5caf698d2d" responseDate="2012-11-02T18:18:01.719">
+	<OrbitzConfirmationCode>PBAXP2620772244</OrbitzConfirmationCode>
+	<BundleLocatorCode>BBAXP6774113354</BundleLocatorCode>
+	<PurchasedDate>2012-11-02</PurchasedDate>
+	<PackageResponse>
+		<PkgAirBookingInfo>
+			<ProductLocatorCode>AF276101VDP5G4S4</ProductLocatorCode>
+			<AirlineConfirmationCodes>
+				<air:AirlineConfirmationCode
+					carrierCode="UA">PG1N4N</air:AirlineConfirmationCode>
+			</AirlineConfirmationCodes>
+			<Status>PURC</Status>
+			<TravelerDetails>
+				<air:Traveler>
+					<air:Name>
+						<com:Title />
+						<com:FirstName>SMACDONALD</com:FirstName>
+						<com:MiddleName />
+						<com:LastName>ORBITZTEST</com:LastName>
+						<com:Suffix />
+					</air:Name>
+					<air:Email />
+					<air:SeatAssignment>
+						<air:SeatLeg seatId="22C  ">
+							<air:Leg SeatMapDataAvailable="true" id="0"
+								travelDuration="PT1H7M">
+								<air:FlightNumber>566</air:FlightNumber>
+								<air:EquipmentType>Airbus A320</air:EquipmentType>
+								<air:FlightDistance unit="mi">241.0
+								</air:FlightDistance>
+								<air:OperatedBy>United Airlines</air:OperatedBy>
+								<air:MarketedBy code="UA">United Airlines
+								</air:MarketedBy>
+								<air:Departure>
+									<air:Airport>
+										<com:Id>33774</com:Id>
+										<com:Name>Los Angeles Airport, El Segundo</com:Name>
+										<com:Code>LAX</com:Code>
+										<com:Type code="AIRPORT">airport</com:Type>
+										<com:CityName>Los Angeles</com:CityName>
+										<com:StateProvince code="CA" />
+										<com:Country code="US">United States</com:Country>
+									</air:Airport>
+									<air:Time>2013-05-13T06:50:00.000</air:Time>
+								</air:Departure>
+								<air:Arrival>
+									<air:Airport>
+										<com:Id>33638</com:Id>
+										<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+										<com:Code>LAS</com:Code>
+										<com:Type code="AIRPORT">airport</com:Type>
+										<com:CityName>Las Vegas</com:CityName>
+										<com:StateProvince code="NV" />
+										<com:Country code="US">United States</com:Country>
+									</air:Airport>
+									<air:Time>2013-05-13T07:57:00.000</air:Time>
+								</air:Arrival>
+								<air:CabinType code="C">Economy</air:CabinType>
+								<air:DepartureTerminal>7</air:DepartureTerminal>
+								<air:ArrivalTerminal>3</air:ArrivalTerminal>
+							</air:Leg>
+							<air:status code="HK">Confirmed</air:status>
+						</air:SeatLeg>
+						<air:SeatLeg seatId="05B  ">
+							<air:Leg SeatMapDataAvailable="true" id="0"
+								onTimePerformance="80" travelDuration="PT1H9M">
+								<air:FlightNumber>6374</air:FlightNumber>
+								<air:EquipmentType>Canadair </air:EquipmentType>
+								<air:FlightDistance unit="mi">241.0
+								</air:FlightDistance>
+								<air:MarketedBy code="UA">United Airlines
+								</air:MarketedBy>
+								<air:Departure>
+									<air:Airport>
+										<com:Id>33638</com:Id>
+										<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+										<com:Code>LAS</com:Code>
+										<com:Type code="AIRPORT">airport</com:Type>
+										<com:CityName>Las Vegas</com:CityName>
+										<com:StateProvince code="NV" />
+										<com:Country code="US">United States</com:Country>
+									</air:Airport>
+									<air:Time>2013-05-14T10:40:00.000</air:Time>
+								</air:Departure>
+								<air:Arrival>
+									<air:Airport>
+										<com:Id>33774</com:Id>
+										<com:Name>Los Angeles Airport, El Segundo</com:Name>
+										<com:Code>LAX</com:Code>
+										<com:Type code="AIRPORT">airport</com:Type>
+										<com:CityName>Los Angeles</com:CityName>
+										<com:StateProvince code="CA" />
+										<com:Country code="US">United States</com:Country>
+									</air:Airport>
+									<air:Time>2013-05-14T11:49:00.000</air:Time>
+								</air:Arrival>
+								<air:CabinType code="C">Economy</air:CabinType>
+								<air:DepartureTerminal>3</air:DepartureTerminal>
+								<air:ArrivalTerminal>8</air:ArrivalTerminal>
+							</air:Leg>
+							<air:status code="HK">Confirmed</air:status>
+						</air:SeatLeg>
+					</air:SeatAssignment>
+					<air:SpecialService />
+					<air:LoyaltyPrograms />
+					<air:MealType code="Standard" />
+				</air:Traveler>
+			</TravelerDetails>
+			<FlightInformation>
+				<air:Slices>
+					<air:Slice travelDuration="PT1H7M">
+						<air:MarketingAirline code="UA">United Airlines
+						</air:MarketingAirline>
+						<air:Segments>
+							<air:Segment id="1" travelDuration="PT1H7M">
+								<air:FlightNumber>566</air:FlightNumber>
+								<air:FlightDistance unit="mi">241.0
+								</air:FlightDistance>
+								<air:OperatedBy>United Airlines</air:OperatedBy>
+								<air:MarketedBy code="UA">United Airlines
+								</air:MarketedBy>
+								<air:Departure>
+									<air:Airport>
+										<com:Id>33774</com:Id>
+										<com:Name>Los Angeles Airport, El Segundo</com:Name>
+										<com:Code>LAX</com:Code>
+										<com:Type code="AIRPORT">airport</com:Type>
+										<com:CityName>Los Angeles</com:CityName>
+										<com:StateProvince code="CA" />
+										<com:Country code="US">United States</com:Country>
+									</air:Airport>
+									<air:Time>2013-05-13T06:50:00.000</air:Time>
+								</air:Departure>
+								<air:Arrival>
+									<air:Airport>
+										<com:Id>33638</com:Id>
+										<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+										<com:Code>LAS</com:Code>
+										<com:Type code="AIRPORT">airport</com:Type>
+										<com:CityName>Las Vegas</com:CityName>
+										<com:StateProvince code="NV" />
+										<com:Country code="US">United States</com:Country>
+									</air:Airport>
+									<air:Time>2013-05-13T07:57:00.000</air:Time>
+								</air:Arrival>
+								<air:CabinType code="C">Economy</air:CabinType>
+								<air:DepartureTerminal>7</air:DepartureTerminal>
+								<air:ArrivalTerminal>3</air:ArrivalTerminal>
+								<air:Legs>
+									<air:Leg SeatMapDataAvailable="true" id="0"
+										travelDuration="PT1H7M">
+										<air:FlightNumber>566</air:FlightNumber>
+										<air:EquipmentType>Airbus A320</air:EquipmentType>
+										<air:FlightDistance unit="mi">241.0
+										</air:FlightDistance>
+										<air:OperatedBy>United Airlines</air:OperatedBy>
+										<air:MarketedBy code="UA">United Airlines
+										</air:MarketedBy>
+										<air:Departure>
+											<air:Airport>
+												<com:Id>33774</com:Id>
+												<com:Name>Los Angeles Airport, El Segundo</com:Name>
+												<com:Code>LAX</com:Code>
+												<com:Type code="AIRPORT">airport</com:Type>
+												<com:CityName>Los Angeles</com:CityName>
+												<com:StateProvince code="CA" />
+												<com:Country code="US">United States</com:Country>
+											</air:Airport>
+											<air:Time>2013-05-13T06:50:00.000</air:Time>
+										</air:Departure>
+										<air:Arrival>
+											<air:Airport>
+												<com:Id>33638</com:Id>
+												<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+												<com:Code>LAS</com:Code>
+												<com:Type code="AIRPORT">airport</com:Type>
+												<com:CityName>Las Vegas</com:CityName>
+												<com:StateProvince code="NV" />
+												<com:Country code="US">United States</com:Country>
+											</air:Airport>
+											<air:Time>2013-05-13T07:57:00.000</air:Time>
+										</air:Arrival>
+										<air:CabinType code="C">Economy</air:CabinType>
+										<air:DepartureTerminal>7</air:DepartureTerminal>
+										<air:ArrivalTerminal>3</air:ArrivalTerminal>
+									</air:Leg>
+								</air:Legs>
+							</air:Segment>
+						</air:Segments>
+					</air:Slice>
+					<air:Slice travelDuration="PT1H9M">
+						<air:MarketingAirline code="UA">United Airlines
+						</air:MarketingAirline>
+						<air:Segments>
+							<air:Segment id="2" travelDuration="PT1H9M">
+								<air:FlightNumber>6374</air:FlightNumber>
+								<air:FlightDistance unit="mi">241.0
+								</air:FlightDistance>
+								<air:OperatedBy>SKYWEST DBA UNITED EXPRESS                          </air:OperatedBy>
+								<air:MarketedBy code="UA">United Airlines
+								</air:MarketedBy>
+								<air:Departure>
+									<air:Airport>
+										<com:Id>33638</com:Id>
+										<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+										<com:Code>LAS</com:Code>
+										<com:Type code="AIRPORT">airport</com:Type>
+										<com:CityName>Las Vegas</com:CityName>
+										<com:StateProvince code="NV" />
+										<com:Country code="US">United States</com:Country>
+									</air:Airport>
+									<air:Time>2013-05-14T10:40:00.000</air:Time>
+								</air:Departure>
+								<air:Arrival>
+									<air:Airport>
+										<com:Id>33774</com:Id>
+										<com:Name>Los Angeles Airport, El Segundo</com:Name>
+										<com:Code>LAX</com:Code>
+										<com:Type code="AIRPORT">airport</com:Type>
+										<com:CityName>Los Angeles</com:CityName>
+										<com:StateProvince code="CA" />
+										<com:Country code="US">United States</com:Country>
+									</air:Airport>
+									<air:Time>2013-05-14T11:49:00.000</air:Time>
+								</air:Arrival>
+								<air:CabinType code="C">Economy</air:CabinType>
+								<air:DepartureTerminal>3</air:DepartureTerminal>
+								<air:ArrivalTerminal>8</air:ArrivalTerminal>
+								<air:Legs>
+									<air:Leg SeatMapDataAvailable="true" id="0"
+										onTimePerformance="80" travelDuration="PT1H9M">
+										<air:FlightNumber>6374</air:FlightNumber>
+										<air:EquipmentType>Canadair </air:EquipmentType>
+										<air:FlightDistance unit="mi">241.0
+										</air:FlightDistance>
+										<air:MarketedBy code="UA">United Airlines
+										</air:MarketedBy>
+										<air:Departure>
+											<air:Airport>
+												<com:Id>33638</com:Id>
+												<com:Name>Las Vegas McCarran Intl Airport</com:Name>
+												<com:Code>LAS</com:Code>
+												<com:Type code="AIRPORT">airport</com:Type>
+												<com:CityName>Las Vegas</com:CityName>
+												<com:StateProvince code="NV" />
+												<com:Country code="US">United States</com:Country>
+											</air:Airport>
+											<air:Time>2013-05-14T10:40:00.000</air:Time>
+										</air:Departure>
+										<air:Arrival>
+											<air:Airport>
+												<com:Id>33774</com:Id>
+												<com:Name>Los Angeles Airport, El Segundo</com:Name>
+												<com:Code>LAX</com:Code>
+												<com:Type code="AIRPORT">airport</com:Type>
+												<com:CityName>Los Angeles</com:CityName>
+												<com:StateProvince code="CA" />
+												<com:Country code="US">United States</com:Country>
+											</air:Airport>
+											<air:Time>2013-05-14T11:49:00.000</air:Time>
+										</air:Arrival>
+										<air:CabinType code="C">Economy</air:CabinType>
+										<air:DepartureTerminal>3</air:DepartureTerminal>
+										<air:ArrivalTerminal>8</air:ArrivalTerminal>
+									</air:Leg>
+								</air:Legs>
+							</air:Segment>
+						</air:Segments>
+					</air:Slice>
+				</air:Slices>
+			</FlightInformation>
+			<Fees>
+				<com:Fee currency="USD" type="SR">6.99</com:Fee>
+			</Fees>
+		</PkgAirBookingInfo>
+		<PkgHotelBookingInfo>
+			<HotelIdentifier>83349</HotelIdentifier>
+			<HotelStayDetails>
+				<hotel:CheckIn>2013-05-13</hotel:CheckIn>
+				<hotel:CheckOut>2013-05-14</hotel:CheckOut>
+				<hotel:TotalNumberOfRooms>0</hotel:TotalNumberOfRooms>
+			</HotelStayDetails>
+			<Hotel fromCache="false" hostCode="OMH" hotelRefId="0" id="83349"
+				name="Hilton Garden Inn Las Vegas Strip South" starRating="3">
+				<Address>
+					<com:Street1>7830 South Las Vegas Boulevard</com:Street1>
+					<com:City>Las Vegas</com:City>
+					<com:PostalCode>89123</com:PostalCode>
+					<com:Country>US</com:Country>
+				</Address>
+				<Content>
+					<hotel:Description type="HOTEL" />
+					<hotel:Amenities>
+						<hotel:Amenity code="ELECDR">ELECDR</hotel:Amenity>
+						<hotel:Amenity code="CNFFAC">CNFFAC</hotel:Amenity>
+						<hotel:Amenity code="COFMKR">COFMKR</hotel:Amenity>
+						<hotel:Amenity code="VALET">VALET</hotel:Amenity>
+						<hotel:Amenity code="BATH">BATH</hotel:Amenity>
+						<hotel:Amenity code="RACCRT">RACCRT</hotel:Amenity>
+						<hotel:Amenity code="NWSSTD">NWSSTD</hotel:Amenity>
+						<hotel:Amenity code="ALRMCK">ALRMCK</hotel:Amenity>
+						<hotel:Amenity code="JACUZ">JACUZ</hotel:Amenity>
+						<hotel:Amenity code="PHSPKR">PHSPKR</hotel:Amenity>
+						<hotel:Amenity code="CPSVC">CPSVC</hotel:Amenity>
+						<hotel:Amenity code="TENNIS">TENNIS</hotel:Amenity>
+						<hotel:Amenity code="AIRCON">AIRCON</hotel:Amenity>
+						<hotel:Amenity code="SOFABD">SOFABD</hotel:Amenity>
+						<hotel:Amenity code="KITFUL">KITFUL</hotel:Amenity>
+						<hotel:Amenity code="HEAT">HEAT</hotel:Amenity>
+						<hotel:Amenity code="BUSCTR">BUSCTR</hotel:Amenity>
+						<hotel:Amenity code="GOLF">GOLF</hotel:Amenity>
+						<hotel:Amenity code="LANDRY">LANDRY</hotel:Amenity>
+						<hotel:Amenity code="PRKNG">PRKNG</hotel:Amenity>
+						<hotel:Amenity code="SPRINK">SPRINK</hotel:Amenity>
+						<hotel:Amenity code="TVCAB">TVCAB</hotel:Amenity>
+						<hotel:Amenity code="EXCKOT">EXCKOT</hotel:Amenity>
+						<hotel:Amenity code="POOLHT">POOLHT</hotel:Amenity>
+						<hotel:Amenity code="TMPCTL">TMPCTL</hotel:Amenity>
+						<hotel:Amenity code="NSMK">NSMK</hotel:Amenity>
+						<hotel:Amenity code="IRONBD">IRONBD</hotel:Amenity>
+						<hotel:Amenity code="POOL">POOL</hotel:Amenity>
+						<hotel:Amenity code="MICRWV">MICRWV</hotel:Amenity>
+						<hotel:Amenity code="FISH">FISH</hotel:Amenity>
+						<hotel:Amenity code="HAIR">HAIR</hotel:Amenity>
+						<hotel:Amenity code="GIFT">GIFT</hotel:Amenity>
+						<hotel:Amenity code="CRIB">CRIB</hotel:Amenity>
+						<hotel:Amenity code="DSKLMP">DSKLMP</hotel:Amenity>
+						<hotel:Amenity code="SHUTTL">SHUTTL</hotel:Amenity>
+						<hotel:Amenity code="PLYGRD">PLYGRD</hotel:Amenity>
+						<hotel:Amenity code="MOVIES">MOVIES</hotel:Amenity>
+						<hotel:Amenity code="SECURE">SECURE</hotel:Amenity>
+						<hotel:Amenity code="IRON">IRON</hotel:Amenity>
+						<hotel:Amenity code="KIDACT">KIDACT</hotel:Amenity>
+						<hotel:Amenity code="MTGFAC">MTGFAC</hotel:Amenity>
+						<hotel:Amenity code="JOGTRK">JOGTRK</hotel:Amenity>
+						<hotel:Amenity code="SAFDEP">SAFDEP</hotel:Amenity>
+						<hotel:Amenity code="SECU24">SECU24</hotel:Amenity>
+						<hotel:Amenity code="FPRKNG">FPRKNG</hotel:Amenity>
+						<hotel:Amenity code="INTHS">INTHS</hotel:Amenity>
+						<hotel:Amenity code="SMKDET">SMKDET</hotel:Amenity>
+						<hotel:Amenity code="ATM">ATM</hotel:Amenity>
+						<hotel:Amenity code="EXCKIN">EXCKIN</hotel:Amenity>
+						<hotel:Amenity code="TVRMOT">TVRMOT</hotel:Amenity>
+						<hotel:Amenity code="GAME">GAME</hotel:Amenity>
+						<hotel:Amenity code="POOLOT">POOLOT</hotel:Amenity>
+						<hotel:Amenity code="WETBAR">WETBAR</hotel:Amenity>
+						<hotel:Amenity code="LOUNGE">LOUNGE</hotel:Amenity>
+					</hotel:Amenities>
+				</Content>
+				<Geocode>
+					<hotel:Longitude>-115.1707</hotel:Longitude>
+					<hotel:Latitude>36.0473</hotel:Latitude>
+				</Geocode>
+				<UserReviews UserScore="4.1" />
+				<HotelRoom>
+					<RateCode>OB</RateCode>
+					<RoomCode>Q2RRV</RoomCode>
+					<TravelerInfo>
+						<Adult count="1" />
+					</TravelerInfo>
+				</HotelRoom>
+			</Hotel>
+			<HotelRooms>
+				<HotelRoom>
+					<Status>PURC</Status>
+					<RoomConfirmationCode>HBAXP3101743264</RoomConfirmationCode>
+					<RoomRate checkInDate="2013-05-13" checkOutDate="2013-05-14"
+						hostCode="OMH" rateType="MERCHANT">
+						<hotel:TaxesAndFees currency="USD">10.18
+						</hotel:TaxesAndFees>
+						<hotel:TotalCostInclusive currency="USD">94.83
+						</hotel:TotalCostInclusive>
+						<hotel:RateCode>OB</hotel:RateCode>
+						<hotel:RoomCode>Q2RRV</hotel:RoomCode>
+						<hotel:RateAccessCode>81554</hotel:RateAccessCode>
+						<hotel:RoomDescription />
+						<hotel:RoomDescriptionData>
+							<hotel:Bedrooms>0</hotel:Bedrooms>
+							<hotel:Bathrooms>0.0</hotel:Bathrooms>
+						</hotel:RoomDescriptionData>
+						<hotel:RateDescription />
+						<hotel:RateInclusiveDescription />
+					</RoomRate>
+				</HotelRoom>
+			</HotelRooms>
+		</PkgHotelBookingInfo>
+		<PkgPricingInfo>
+			<TotalCost currency="USD">255.42</TotalCost>
+			<CostWithoutTax currency="USD">197.05</CostWithoutTax>
+			<Taxes currency="USD">58.37</Taxes>
+			<Fees>
+				<com:Fee currency="USD" type="SR">6.99</com:Fee>
+			</Fees>
+			<CostPerPerson currency="USD">255.42</CostPerPerson>
+			<isAgeBasedPriceApplied>false</isAgeBasedPriceApplied>
+		</PkgPricingInfo>
+	</PackageResponse>
+	<PaymentInfo>
+		<com:Address>
+			<com:Street1>500 West Madison</com:Street1>
+			<com:Street2>Suite 1000</com:Street2>
+			<com:Street3 />
+			<com:City>Chicago</com:City>
+			<com:StateProvince>IL</com:StateProvince>
+			<com:PostalCode>60661</com:PostalCode>
+			<com:Country>US</com:Country>
+		</com:Address>
+		<com:CcType code="CA">MasterCard</com:CcType>
+		<com:CcNumber>**** **** **** 1374</com:CcNumber>
+		<com:CcExpMonth>1</com:CcExpMonth>
+		<com:CcExpYear>2014</com:CcExpYear>
+		<com:CcBillingName>KEVIN BESS</com:CcBillingName>
+		<com:CcBillingPhoneDetails>
+			<com:CountryCode>US</com:CountryCode>
+			<com:CountryPhoneCode>0</com:CountryPhoneCode>
+			<com:PhoneNumber>3128945000</com:PhoneNumber>
+			<com:Extension />
+		</com:CcBillingPhoneDetails>
+	</PaymentInfo>
+	<DistributionPartnerDetails>
+		<com:DistributionConfirmationNumber>1107-8591
+		</com:DistributionConfirmationNumber>
+	</DistributionPartnerDetails>
+</PackageBookingResponse>
